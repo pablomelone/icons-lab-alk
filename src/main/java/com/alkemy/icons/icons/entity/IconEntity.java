@@ -28,9 +28,6 @@ public class IconEntity {
 
     private String denominacion;
 
-    @Column(name = "fecha-creacion")
-    @DateTimeFormat(pattern = "yyyy/MM/dd")
-    private LocalDate fechaCreacion;
 
     private Long altura;
 
